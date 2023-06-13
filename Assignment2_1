@@ -1,0 +1,28 @@
+#---------------------------------
+# Problem Statement 1
+#---------------------------------
+filenames = ['view.jpg', 'bear.jpg', 'ball.png']
+filenames.insert(0, 'phone.jpg')
+del filenames[3]
+
+print(filenames)
+
+#---------------------------------
+# Problem Statement 2
+#---------------------------------
+L = [1,2,3,4,5,6,7,8,9,10]
+
+min_number = L[0]
+for n in L:
+    if n < min_number:
+        min_number = n
+print(min_number)
+
+max_number = L[0]
+for n in L:
+    if n > max_number:
+        max_number = n
+print(max_number)
+
+average = sum(L)/len(L)
+print(int(average))
