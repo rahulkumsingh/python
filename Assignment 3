@@ -1,0 +1,10 @@
+# program to find sum of multiple numbers in a list
+
+def find_sum(num):
+    total = 0
+    for n in num:
+        total += n
+    print("Sum = ", total)
+
+L1=[1,2,3,4]
+find_sum(L1)
