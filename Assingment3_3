@@ -1,0 +1,9 @@
+# Count no. of upper cases and lower cases in a string
+
+def upper_lower(st):
+  up = sum(1 for i in st if i.isupper())
+  lo = sum(1 for i in st if i.islower())
+  print( "No. of Upper case characters : %st, No. of Lower case characters : %st" % (up,lo))
+
+Str = input("Enter your String")
+upper_lower(Str)
